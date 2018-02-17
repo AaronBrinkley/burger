@@ -1,9 +1,9 @@
 
 var mysql = require("mysql");
 
-var infoMan = require("../info.js")
+// var infoMan = require("../info.js")
 
-var infoWordMan = infoMan.wordThing
+// var infoWordMan = infoMan.wordThing
 
 // var connection = mysql.createConnection({
 //   port: 3306,
