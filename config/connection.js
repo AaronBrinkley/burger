@@ -1,11 +1,15 @@
 
 var mysql = require("mysql");
 
+var infoMan = require("../info.js")
+
+var infoWordMan = infoMan.wordThing
+
 var connection = mysql.createConnection({
   port: 3306,
   host: "localhost",
   user: "root",
-  password: "Samandi19",
+  password: infoWordMan,
   database: "burgers_db"
 });
 
